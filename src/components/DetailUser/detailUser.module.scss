@@ -1,0 +1,46 @@
+.container_detail {
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #7269ef;
+}
+.container_infor {
+  width: 45%;
+  margin-left: 40px;
+  background-color: #fff;
+  margin: auto;
+  min-height: 300px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+.feild {
+  margin-top: 20px;
+}
+.field_name {
+  font-weight: 600;
+  color: red;
+}
+.field_value {
+  display: inline-block;
+  margin-left: 10px;
+}
+.btn_back {
+  color: #fff;
+  background-color: #7269ef;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: none;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  &:hover {
+    opacity: 1;
+  }
+}

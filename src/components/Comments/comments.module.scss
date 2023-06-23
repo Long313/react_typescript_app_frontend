@@ -1,0 +1,105 @@
+.container {
+  min-height: 100vh;
+  height: max-content;
+}
+.container_comment {
+  margin: auto;
+  margin-top: 50px;
+  width: 30%;
+}
+.form_comment {
+  display: flex;
+  flex-direction: column;
+  .textarea_comment {
+    resize: none;
+    min-height: 100px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    outline: none;
+    padding: 5px;
+  }
+  .btn_comment {
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    border: none;
+    opacity: 0.6;
+    background-color: #7269ef;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+.container_list_comment {
+  margin-top: 40px;
+}
+.list_comments {
+  color: #7269ef;
+  text-align: center;
+  margin: 20px 0;
+}
+.comment {
+  min-height: 120px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  .content {
+    font-size: 1.6rem;
+  }
+  .time {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  .author {
+    font-style: italic;
+    font-size: 1.4rem;
+  }
+}
+.container_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_detail,
+.btn_update,
+.btn_delete {
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  opacity: 0.5;
+  font-weight: 500;
+  transition: all ease 0.5s;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btn_detail {
+  background-color: #19c390;
+  &:hover {
+    opacity: 1;
+  }
+}
+.btn_update {
+  background-color: #7269ef;
+  &:hover {
+    opacity: 1;
+  }
+}
+.btn_delete {
+  background-color: red;
+  &:hover {
+    opacity: 1;
+  }
+}

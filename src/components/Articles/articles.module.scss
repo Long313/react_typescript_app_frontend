@@ -1,0 +1,131 @@
+.container_articles {
+  min-height: 100vh;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+}
+.container_form {
+  width: 30%;
+  height: max-content;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 4px;
+}
+.container_list {
+  margin-top: 20px;
+  border-left: none;
+  width: 70%;
+  padding-left: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.title {
+  color: #7269ef;
+  text-align: center;
+}
+.field {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.btn_create_article {
+  width: 100%;
+  height: 30px;
+  font-size: 1.6rem;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 40px;
+  background-color: #7269ef;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all ease 1s;
+  &:hover {
+    opacity: 1;
+  }
+}
+textarea.field_input {
+  resize: none;
+}
+.field_input {
+  border-radius: 2px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  outline: none;
+}
+.title_name {
+  font-weight: 600;
+}
+.article {
+  border-bottom: 1px dotted black;
+  min-height: 140px;
+  padding: 10px;
+}
+.title_artice {
+  text-align: center;
+}
+.body {
+}
+.author {
+}
+.row {
+  margin-top: 10px;
+}
+.field_name {
+  font-weight: 500;
+}
+.container_btn {
+  display: flex;
+  justify-content: center;
+}
+.btn_detail,
+.btn_update,
+.btn_delete,
+.btn_comment {
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  opacity: 0.5;
+  font-weight: 500;
+  transition: all ease 0.5s;
+  margin-left: 10px;
+}
+
+.btn_detail {
+  background-color: #19c390;
+  &:hover {
+    opacity: 1;
+  }
+}
+.btn_update {
+  background-color: #7269ef;
+  &:hover {
+    opacity: 1;
+  }
+}
+.btn_delete {
+  background-color: red;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.btn_comment {
+  background-color: rgb(226, 185, 21);
+  &:hover {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,125 @@
+.container_list_user {
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+}
+.container_form_update_user {
+  width: 30%;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+}
+.form_update_user {
+  .title_update {
+    text-align: center;
+    color: #7269ef;
+    margin: 10px 0 20px 0;
+  }
+  .field {
+    margin: 10px 0;
+    display: flex;
+    .field_name {
+      font-weight: 500;
+      display: inline-block;
+      width: 100px;
+    }
+    .field_input {
+      padding: 5px;
+      height: 30px;
+      border-radius: 5px;
+      resize: none;
+      display: inline-block;
+      outline: none;
+      border: none;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      flex: 1;
+    }
+  }
+  .container_btn_update_user {
+    display: flex;
+    justify-content: center;
+    .btn_update_user {
+      border: none;
+      width: 50%;
+      font-weight: 500;
+      font-size: 1.6rem;
+      cursor: pointer;
+      padding: 10px 5px;
+      color: #fff;
+      background-color: #7269ef;
+      border-radius: 5px;
+      opacity: 0.6;
+      transition: all ease 0.5s;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+.list_user {
+  width: 100%;
+  margin-top: 20px;
+  .user {
+    &:hover {
+      background-color: #d6d5f3;
+      color: #fff;
+    }
+    display: flex;
+    flex: row;
+    border-bottom: 1px dotted #000;
+    .name_column {
+      width: 20%;
+      text-align: center;
+      padding: 5px;
+      font-weight: 500;
+    }
+    .field {
+      width: 20%;
+      text-align: center;
+      padding: 5px;
+    }
+  }
+}
+.btn_detail,
+.btn_update,
+.btn_delete {
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  opacity: 0.5;
+  font-weight: 500;
+  transition: all ease 0.5s;
+  margin-left: 10px;
+}
+
+.btn_detail {
+  background-color: #19c390;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.btn_update {
+  background-color: #7269ef;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.btn_delete {
+  background-color: red;
+  &:hover {
+    opacity: 1;
+  }
+}
+.title_list_user {
+  color: #7269ef;
+  text-align: center;
+  margin: 40px 0;
+}
